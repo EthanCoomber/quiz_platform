@@ -1,0 +1,71 @@
+{
+  "name": "project-Potoo",
+  "version": "0.1.0",
+  "private": true,
+  "authors": [
+    "Toby Pouler <tpouler@middlebury.edu>",
+    "Sam Ehrsam <sehrsam@middlebury.edu>",
+    "Julia Joy <jjoy@middlebury.edu>",
+    "Ethan Coomber <ecoomber@middlebury.edu>",
+    "Lucas Flemming <lflemming@middlebury.edu>",
+    "Alivia Kliesen <akliesen@middlebury.edu>",
+    "Jake Gilbert <jakeg@middlebury.edu>"
+  ],
+  "contributors": [
+    "Christopher Andrews <candrews@middlebury.edu>",
+    "Michael Linderman <mlinderman@middlebury.edu>"
+  ],
+  "url": "https://github.com/csci0312-f22/project-potoo",
+  "description": "This project consists of a dynamic quiz generator and progress tracker for any number of courses intended for teachers and students.",
+  "scripts": {
+    "dev": "next dev",
+    "dev:production": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "eslint src",
+    "prepare": "husky install",
+    "dev:emulate": "NEXT_PUBLIC_EMULATE=true next dev",
+    "emulator": "firebase emulators:start",
+    "test": "NEXT_PUBLIC_EMULATE=true jest --runInBand",
+    "test:ci": "firebase emulators:exec 'npm test --runInBand'",
+    "seed": "NEXT_PUBLIC_EMULATE=true node src/utils/seed-database.mjs data/seed.json",
+    "seed:deployed": "node src/utils/seed-database.mjs data/seed.json"
+  },
+  "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "firebase": "^9.13.0",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-awesome-button": "^7.0.4",
+    "react-collapsible": "^2.10.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-movable": "^3.0.4",
+    "react-select": "^5.6.1"
+  },
+  "devDependencies": {
+    "@iconify/icons-akar-icons": "^1.2.11",
+    "@iconify/icons-ant-design": "^1.2.4",
+    "@iconify/icons-material-symbols": "^1.2.21",
+    "@iconify/react": "^4.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "eslint": "^8.25.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.9",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.1.2",
+    "lint-staged": "^13.0.3",
+    "next-router-mock": "^0.7.4",
+    "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md,json,jsx}": "prettier --write"
+  }
+}

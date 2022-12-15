@@ -1,0 +1,15 @@
+.multiselect {
+  width: 400px;
+  color: black;
+  margin: auto;
+}
+
+.multiselect1 {
+  width: 400px;
+  color: black;
+  position: relative;
+}
+
+.multiselect:hover {
+  cursor: pointer;
+}
