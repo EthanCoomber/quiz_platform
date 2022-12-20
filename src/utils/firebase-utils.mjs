@@ -23,12 +23,13 @@ import { getAuth, connectAuthEmulator} from "firebase/auth";
 // addDoc
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBmBpPRwfoKmUCfUYpwasMR-WG0Q7IH2DU",
-  authDomain: "potoo-40376.firebaseapp.com",
-  projectId: "potoo-40376",
-  storageBucket: "potoo-40376.appspot.com",
-  messagingSenderId: "783644932424",
-  appId: "1:783644932424:web:e5f82562101debd294db7d"
+  apiKey: "AIzaSyCaJxdy1fmtSNcgo-ld38L80-u5OfwUNBo",
+  authDomain: "quiz-6ceb9.firebaseapp.com",
+  projectId: "quiz-6ceb9",
+  storageBucket: "quiz-6ceb9.appspot.com",
+  messagingSenderId: "561397415785",
+  appId: "1:561397415785:web:5a7768c62d82e318dd07f8",
+  measurementId: "G-625GXBVSMR"
 };
 
 // Initialize Firebase
