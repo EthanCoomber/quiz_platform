@@ -17,7 +17,8 @@ export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [newUser, setNewUser] = useState(false);
-  const [prof, setProf] = useState(false);
+  //const [prof, setProf] = useState(false);
+  const prof = true;
 
   const handleLogin = async () => {
     const auth = getAuth();
