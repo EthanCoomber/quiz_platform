@@ -107,7 +107,7 @@ export default function ManageMain() {
 
       <main className={styles.main}>
         {prof && id !== undefined && <CourseTiles prof={prof} id={id} />}
-        {prof && id !== undefined && (
+        {/* {prof && id !== undefined && (
           <div className={manage.newcourse}>
             <Collapsible trigger="Add a new course +">
               <br />
@@ -124,7 +124,7 @@ export default function ManageMain() {
               </AwesomeButton>
             </Collapsible>
           </div>
-        )}
+        )} */}
       </main>
       <footer> Quiz Practice </footer>
     </div>

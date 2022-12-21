@@ -18,7 +18,11 @@ export default function CourseTile({ course }) {
   const [email, setEmail] = useState();
   const user = useUser();
 
-  let newStudent = {email: email, prof: user.email}
+  let newStudent;
+  if(user){
+    newStudent = {email: email, prof: user.email}
+  }
+  
   const students = useStudents(course);
   
   let exclusive = students.filter(function (student)
@@ -29,7 +33,7 @@ export default function CourseTile({ course }) {
 
   const studentList = exclusive.map((s) => (
     <li className={style.li} key={s}>
-      {s.email} {"    "}
+      {s.email}
       <Icon
         icon={cancelIcon}
         width="25"

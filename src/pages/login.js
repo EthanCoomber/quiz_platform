@@ -84,7 +84,7 @@ export default function Login() {
 
       <main className={styles.login}>
         <h1>Login Page</h1>
-        <h6>Feel free to use any credentials</h6>
+        <h6>Feel free to type any word followed by @email.com when logging in if you don't want a real account</h6>
         {errorMessage && <p className={styles.error}>{errorMessage}</p>}
         <div>
           <p>Email</p>
