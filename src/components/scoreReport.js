@@ -31,7 +31,6 @@ export default function ScoreReport({ questions, course }) {
   });
 
   const userID = useUser().email;
-  console.log(userID);
   addResult(resultObj, course, userID);
 
   const score = (numCorrect / questions.length) * 100;

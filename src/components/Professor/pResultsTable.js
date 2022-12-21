@@ -5,9 +5,11 @@ import Select from "react-select";
 import { useState } from "react";
 import styles from "../../styles/topics.module.css";
 import tableStyles from "../../styles/ResultsTable.module.css";
+import { useUser } from "../../contexts/UserContext";
 
 export default function PResultsTable({ course }) {
   const [selected, setSelected] = useState();
+  const user = useUser();
 
   const allTopics = useTopics(course);
   const topicsOptions = [];
@@ -29,7 +31,13 @@ export default function PResultsTable({ course }) {
     return res[selected] !== undefined;
   });
 
-  const resultsTable = filteredResults.map((val) => (
+  let exclusive = filteredResults.filter(function (result)
+    {
+      return result.student === user.email;
+    }
+  );
+
+  const resultsTable = exclusive.map((val) => (
     <tr key={val.id}>
       <td> {val.date} </td>
       <td> {val.student} </td>

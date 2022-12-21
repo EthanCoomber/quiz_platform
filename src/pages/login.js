@@ -84,7 +84,7 @@ export default function Login() {
 
       <main className={styles.login}>
         <h1>Login Page</h1>
-
+        <h6>Feel free to use any credentials</h6>
         {errorMessage && <p className={styles.error}>{errorMessage}</p>}
         <div>
           <p>Email</p>
@@ -120,6 +120,8 @@ export default function Login() {
           />{" "}
           New User
         </p>
+        
+        {/* Uncomment this to have the option to log in as a professor
         <p className={styles.login_boxes}>
           <input
             type="checkbox"
@@ -128,7 +130,7 @@ export default function Login() {
             className={styles.cbox}
           />{" "}
           Professor
-        </p>
+        </p> */}
         <br />
 
         <div>

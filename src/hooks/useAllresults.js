@@ -15,21 +15,9 @@ function useAllresults(course) {
   const students = [];
   const resultsFetched = [];
   useEffect(() => {
-    // let resultsFetched = [];
     onSnapshot(collection(db, "courses", course, "results"), (studentsList) => {
       studentsList.docs.forEach((doc) => {
-        //const student = doc.data().email;
         students.push(doc.data().email);
-        // onSnapshot(
-        //   collection(db, "courses", course, "results", student, "quizResults"),
-        //   (resultsList) => {
-        //     resultsList.docs.forEach((res) => {
-        //       resultsFetched.push({ ...res.data(), id: res.id });
-        //     });
-        //     resultsFetched = results.concat(resultsFetched);
-        //     setResults(resultsFetched);
-        //   }
-        // );
       });
       students.forEach((t) => {
         onSnapshot(
@@ -43,7 +31,6 @@ function useAllresults(course) {
       });
     });
     setResults(resultsFetched);
-    console.log(results);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return results;

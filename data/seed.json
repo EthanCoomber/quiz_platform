@@ -4,125 +4,125 @@
     "answer": "2",
     "uid": "1",
     "topic": "Addition",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "5 + 7 = _",
     "answer": "12",
     "uid": "1",
     "topic": "Addition",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "11 + 13 = _",
     "answer": "24",
     "uid": "1",
     "topic": "Addition",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "20 + 14 = _",
     "answer": "34",
     "uid": "1",
     "topic": "Addition",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "14 + 3 = _",
     "answer": "17",
     "uid": "1",
     "topic": "Addition",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "4(2+3) = _",
     "answer": "20",
     "uid": "1",
     "topic": "Multiplication",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "What is 7 * 6 = _",
     "answer": "42",
     "uid": "1",
     "topic": "Multiplication",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "What is 9 * 5 = _",
     "answer": "45",
     "uid": "1",
     "topic": "Multiplication",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "What is 10 * 11 = _",
     "answer": "110",
     "uid": "1",
     "topic": "Multiplication",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "64/8 = _",
     "answer": "8",
     "uid": "1",
     "topic": "Division",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "70/10 = _",
     "answer": "7",
     "uid": "1",
     "topic": "Division",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "16/4 = _",
     "answer": "4",
     "uid": "1",
     "topic": "Division",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "32/4 = _",
     "answer": "8",
     "uid": "1",
     "topic": "Division",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "If x + 8 = 32, What is x?",
     "answer": "24",
     "uid": "1",
     "topic": "Algebra",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "If 7x + 3 = 45, What is x?",
     "answer": "6",
     "uid": "1",
     "topic": "Algebra",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
-    "question": "If 4x + 10 = 3, What is x?",
+    "question": "If 4x + 10 = 30, What is x?",
     "answer": "5",
     "uid": "1",
     "topic": "Algebra",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "If 2x + 1 = 15, What is x?",
-    "answer": "2",
+    "answer": "7",
     "uid": "1",
     "topic": "Algebra",
-    "course": "CS312"
+    "course": "Demo Class"
   },
   {
     "question": "Here's a Science Question",
     "answer": "0",
     "uid": "1",
     "topic": "Science",
-    "course": "CS420"
+    "course": "Demo Class"
   }
 ]

@@ -1,6 +1,7 @@
 .content {
   display: flex;
   float: right;
+  width: 15%;
 }
 
 .content p {

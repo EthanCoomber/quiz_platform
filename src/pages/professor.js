@@ -196,28 +196,7 @@ export default function ProfessorMain() {
         )}
       </main>
 
-      <footer>A 312 project</footer>
+      <footer> Quiz Practice </footer>
     </div>
   );
 }
-
-//        <main>
-//           <span>
-//             <h1 className="title">Add Questions</h1>
-//             <AddQuestion
-//               topics={topicsList}
-//               setSubmitted={setSubmitted}
-//               submitted={submitted}
-//             />
-//           </span>
-//           <br />
-//           <span>
-//             {/* <AwesomeButton type="primary" onReleased={() => loadQuestions()}>
-//               Load Questions
-//             </AwesomeButton>
-//             <div className={styles.divider} />
-//             <AwesomeButton type="primary" onReleased={() => clearDatabase()}>
-//               Reset Questions
-//             </AwesomeButton> */}
-//           </span>
-//         </main>

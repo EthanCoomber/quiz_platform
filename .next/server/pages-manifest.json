@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/login": "pages/login.html",
+  "/professor": "pages/professor.html",
+  "/presults": "pages/presults.html",
+  "/quiz": "pages/quiz.html",
+  "/sresults": "pages/sresults.html",
+  "/manage": "pages/manage.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

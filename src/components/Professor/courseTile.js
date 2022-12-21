@@ -12,14 +12,24 @@ import { AwesomeButton } from "react-awesome-button";
 import { Icon } from "@iconify/react";
 // eslint-disable-next-line quotes
 import cancelIcon from "@iconify/icons-material-symbols/cancel";
+import { useUser } from "../../contexts/UserContext";
 
 export default function CourseTile({ course }) {
   const [email, setEmail] = useState();
+  const user = useUser();
 
+  let newStudent = {email: email, prof: user.email}
   const students = useStudents(course);
-  const studentList = students.map((s) => (
+  
+  let exclusive = students.filter(function (student)
+    {
+      return student.prof === user.email;
+    }
+  );
+
+  const studentList = exclusive.map((s) => (
     <li className={style.li} key={s}>
-      {s} {"    "}
+      {s.email} {"    "}
       <Icon
         icon={cancelIcon}
         width="25"
@@ -51,7 +61,7 @@ export default function CourseTile({ course }) {
             {/* <button onClick={() => addStudent(course, email)}> add </button> */}
             <AwesomeButton
               type="secondary"
-              onReleased={() => addStudent(course, email)}
+              onReleased={() => addStudent(course, newStudent)}
             >
               Add
             </AwesomeButton>

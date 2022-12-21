@@ -110,7 +110,7 @@ export default function SresultsMain() {
             </div>
           )}
         </main>
-        <footer>A 312 project</footer>
+        <footer> Quiz Practice </footer>
       </div>
     );
   }

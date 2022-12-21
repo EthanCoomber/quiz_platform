@@ -124,7 +124,7 @@ export default function PresultsMain() {
             </div>
           )}
         </main>
-        <footer>A 312 project</footer>
+        <footer> Quiz Practice </footer>
       </div>
     );
   }
