@@ -7,4 +7,12 @@ When logging in, feel free to us any email address you would like as long as it 
 
 When logged in, the home page is where you will be routed. You can hover over the question mark in the bottom left to see where the different options in the nav bar take you.
 
-The deployed link can be found here
+Project Console: https://console.firebase.google.com/project/quiz-6ceb9/overview
+Hosting URL: https://quiz-6ceb9.web.app
+
+To deploy run the following commands:
+
+npm run build
+npm run export
+firebase deploy
+

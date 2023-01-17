@@ -57,23 +57,19 @@ export default function Main() {
         <span className={styles.extra_info}>
           {prof && (
             <span>
-              <div>Manage -- This is where you can practice your skills</div>
+              <div>Manage -- Add or remove students from your class.</div>
               <br />
               <div>
-                Professor -- This is where you can add questions to your quiz
+                Professor -- Add or edit questions to quizzes.
               </div>
               <br />
             </span>
           )}
-          <div>Quiz -- This is where you can practice your skills</div>
-          {!prof && (
-            <span>
-              <br />
-              <div>
-                Results -- This is where you can add questions to your quiz
-              </div>
-            </span>
-          )}
+          <div>Quiz -- Practice your skills and take quizzes.</div>
+          <br />
+          <div>
+            Results -- See results from previous attempts.
+          </div>
         </span>
       </div>
     </Layout>

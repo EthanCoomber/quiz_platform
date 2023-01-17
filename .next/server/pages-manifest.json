@@ -1,6 +1,13 @@
 {
   "/_app": "pages/_app.js",
+  "/": "pages/index.html",
   "/_error": "pages/_error.js",
+  "/login": "pages/login.html",
+  "/manage": "pages/manage.html",
+  "/professor": "pages/professor.html",
+  "/presults": "pages/presults.html",
+  "/sresults": "pages/sresults.html",
+  "/quiz": "pages/quiz.html",
   "/_document": "pages/_document.js",
-  "/login": "pages/login.js"
+  "/404": "pages/404.html"
 }
