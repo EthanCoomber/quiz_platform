@@ -84,7 +84,8 @@ export default function Login() {
 
       <main className={styles.login}>
         <h1>Login Page</h1>
-        <h6>Feel free to type any word followed by @email.com when logging in if you don't want a real account</h6>
+        <p>Accepted email tags are @email.com, @gmail.com, @yahoo.com</p>
+        <p>Password must be 6 characters long</p>
         {errorMessage && <p className={styles.error}>{errorMessage}</p>}
         <div>
           <p>Email</p>
