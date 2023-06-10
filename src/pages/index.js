@@ -39,7 +39,7 @@ export default function Main() {
 
   return (
     <Layout prof={prof}>
-      <h1 className={styles.h1}>Welcome to our quiz page!</h1>
+      <h1 className={styles.h1}>Welcome to my quiz page!</h1>
 
       {/* <p>
           This is a page where you can practice your skills and continue to
