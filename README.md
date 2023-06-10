@@ -28,7 +28,7 @@ Allow friends access to your quizzes and create courses/groups in the manage tab
 Manage page:
 ![Manage Image](./images/roster.png)
 
-Project Console: https://console.firebase.google.com/project/quiz-6ceb9/overview
+Project Console: https://console.firebase.google.com/project/quiz-6ceb9/overview <br>
 Hosting URL: https://quiz-6ceb9.web.app
 
 
