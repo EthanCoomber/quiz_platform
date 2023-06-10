@@ -35,7 +35,7 @@ Hosting URL: https://quiz-6ceb9.web.app
 
 To deploy run the following commands:
 
-npm run build
-npm run export
-firebase deploy
+npm run build <br>
+npm run export <br>
+firebase deploy <br>
 
