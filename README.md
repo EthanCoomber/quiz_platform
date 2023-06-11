@@ -1,7 +1,7 @@
 # quiz_platform
 This project is intended to help students study and track their progress over time
 
-Project Console: https://console.firebase.google.com/project/quiz-6ceb9/overview <br>
+Hosting URL: https://quiz-6ceb9.web.app
 
 The front end is build using React and the back end is build using JavaScript and Firestore. 
 
@@ -31,7 +31,7 @@ Manage page:
 ![Manage Image](./images/roster.png)
 
 
-Hosting URL: https://quiz-6ceb9.web.app
+Project Console: https://console.firebase.google.com/project/quiz-6ceb9/overview <br>
 
 
 
