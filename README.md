@@ -1,7 +1,9 @@
 # quiz_platform
 This project is intended to help students study and track their progress over time
 
-The front end is build using react and the back end is build using JavaScript and Firestore. 
+Hosting URL: https://quiz-6ceb9.web.app
+
+The front end is build using React and the back end is build using JavaScript and Firestore. 
 
 When logging in, any email is valid. The password can also be whatever you would like, any 6 digit string would suffice.
 
@@ -28,8 +30,8 @@ Allow friends access to your quizzes and create courses/groups in the manage tab
 Manage page:
 ![Manage Image](./images/roster.png)
 
+
 Project Console: https://console.firebase.google.com/project/quiz-6ceb9/overview <br>
-Hosting URL: https://quiz-6ceb9.web.app
 
 
 
