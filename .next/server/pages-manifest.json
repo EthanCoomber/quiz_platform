@@ -1,12 +1,12 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/": "pages/index.html",
+  "/_error": "pages/_error.js",
   "/login": "pages/login.html",
   "/manage": "pages/manage.html",
-  "/presults": "pages/presults.html",
-  "/professor": "pages/professor.html",
   "/quiz": "pages/quiz.html",
+  "/professor": "pages/professor.html",
+  "/presults": "pages/presults.html",
   "/sresults": "pages/sresults.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
